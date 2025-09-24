@@ -10,12 +10,12 @@ toggleBtn.addEventListener("click", () => {
   body.classList.toggle("dark-theme");
   const isDark = body.classList.contains("dark-theme");
   logo.src = isDark
-    ? "portfolio-dark-img/images/logo-white.png"
-    : "portfolio-dark-img/images/logo.png";
-  toggleText.textContent = isDark ? "Dark" : "Light";
+    ? "portfolio-img/logo-white.png"
+    : "portfolio-img/logo.png";
+  toggleText.textContent = isDark ? "Light" : "Dark";
   toggleIcon.src = isDark
-    ? "portfolio-dark-img/images/moon.png"
-    : "portfolio-dark-img/images/sun.png";
+    ? "portfolio-img/sun.png"
+    : "portfolio-img/moon.png";
 });
 
 
